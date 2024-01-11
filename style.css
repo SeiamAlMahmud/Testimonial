@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+.body{
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  background: #fff;
+}
+
+li{
+  list-style: none;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+ margin: 3rem 1rem;
+  padding: 8rem 1rem;
+    background: #FAFAF9;
+
+}
+.card1{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  position: relative;
+  line-height: 1.2;
+}
+
+.review_line div{
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+.imag{
+  height: 30px;
+  background: #F5C044;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: -2rem;
+  padding: 0.2rem;
+}
+
+.title{
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+.description{
+  font-size: 20px;
+}
+.review_line p{
+  font-size: 14px;
+}
+
+.card2{
+  position: relative;
+}
+
+.box1{
+  width: 18rem;
+  height: 7rem;
+  background: #fff;
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.1);
+  position: absolute;
+  top: 2px;
+  right: 0;
+}
+
+
+
+.box2{
+  width: 18rem;
+  height: 7rem;
+  background: #fff;
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+ box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.1);
+  position: absolute;
+  bottom: 0rem;
+}
+
+.box_part1 > img{
+  height: 40px;
+}
+
+.box_part1{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.star >img{
+  height: 20px;
+}
+
+.boxt_part2{
+  display: flex;
+  flex-direction: column;
+}
+.boxt_part2 h5{
+  font-weight: 700;
+  font-size: 14px;
+  margin-top:.4rem;
+}
+
+
+.boxt_part2 p{
+  font-weight: 400;
+  margin-top: -1rem;
+}
